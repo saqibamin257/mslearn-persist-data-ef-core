@@ -26,31 +26,31 @@ namespace ContosoPizza.Data
             var pizzas = new Pizza[]
             {
                 new Pizza
-                    { 
-                        Name = "Meat Lovers", 
-                        Sauce = tomatoSauce, 
+                    {
+                        Name = "Meat Lovers",
+                        Sauce = tomatoSauce,
                         Toppings = new List<Topping>
                             {
-                                pepperoniTopping, 
-                                sausageTopping, 
-                                hamTopping, 
+                                pepperoniTopping,
+                                sausageTopping,
+                                hamTopping,
                                 chickenTopping
                             }
                     },
                 new Pizza
-                    { 
-                        Name = "Hawaiian", 
-                        Sauce = tomatoSauce, 
+                    {
+                        Name = "Hawaiian",
+                        Sauce = tomatoSauce,
                         Toppings = new List<Topping>
                             {
-                                pineappleTopping, 
+                                pineappleTopping,
                                 hamTopping
                             }
                     },
                 new Pizza
-                    { 
-                        Name="Alfredo Chicken", 
-                        Sauce = alfredoSauce, 
+                    {
+                        Name="Alfredo Chicken",
+                        Sauce = alfredoSauce,
                         Toppings = new List<Topping>
                             {
                                 chickenTopping

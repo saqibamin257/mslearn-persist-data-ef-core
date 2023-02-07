@@ -9,5 +9,5 @@ public class Sauce
     [MaxLength(100)]
     public string? Name { get; set; }
 
-    public bool IsVegan{get; set;}
+    public bool IsVegan { get; set;}
 }

@@ -25,7 +25,7 @@ public class PizzaService
         .AsNoTracking()
         .SingleOrDefault(p => p.Id == id);
     }
-
+    
     public Pizza Create(Pizza newPizza)
     {
         _context.Pizzas.Add(newPizza);
